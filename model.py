@@ -68,5 +68,9 @@ else:
     x1 -= 1    
     
 #print (y1, x1)
+    
+answer = (((y0 - y1)**2) + ((x0 - x1)**2))**0.5 # calculate distance between agents 
+print(answer)
+    
 
     
